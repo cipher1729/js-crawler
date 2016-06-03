@@ -1,0 +1,180 @@
+2016-04-02 17:35:17 [scrapy] ERROR: Spider error processing <POST http://127.0.0.1:8050/render.html> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/cipher1729/Desktop/netSec/data_crawler_28Mar/data_crawler/data_crawler/data_crawler/spiders/getDataSpider.py", line 205, in parse
+    items[scriptObjs] = scriptObj. allScripts
+NameError: global name 'scriptObjs' is not defined
+2016-04-02 17:35:17 [scrapy] ERROR: Spider error processing <POST http://127.0.0.1:8050/render.html> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/cipher1729/Desktop/netSec/data_crawler_28Mar/data_crawler/data_crawler/data_crawler/spiders/getDataSpider.py", line 205, in parse
+    items[scriptObjs] = scriptObj. allScripts
+NameError: global name 'scriptObjs' is not defined
+2016-04-02 17:35:18 [scrapy] ERROR: Spider error processing <POST http://127.0.0.1:8050/render.html> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/cipher1729/Desktop/netSec/data_crawler_28Mar/data_crawler/data_crawler/data_crawler/spiders/getDataSpider.py", line 205, in parse
+    items[scriptObjs] = scriptObj. allScripts
+NameError: global name 'scriptObjs' is not defined
+2016-04-02 17:35:19 [scrapy] ERROR: Spider error processing <POST http://127.0.0.1:8050/render.html> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/cipher1729/Desktop/netSec/data_crawler_28Mar/data_crawler/data_crawler/data_crawler/spiders/getDataSpider.py", line 205, in parse
+    items[scriptObjs] = scriptObj. allScripts
+NameError: global name 'scriptObjs' is not defined
+2016-04-02 17:35:19 [scrapy] ERROR: Spider error processing <POST http://127.0.0.1:8050/render.html> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/cipher1729/Desktop/netSec/data_crawler_28Mar/data_crawler/data_crawler/data_crawler/spiders/getDataSpider.py", line 205, in parse
+    items[scriptObjs] = scriptObj. allScripts
+NameError: global name 'scriptObjs' is not defined
+2016-04-02 17:35:20 [scrapy] ERROR: Spider error processing <POST http://127.0.0.1:8050/render.html> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/cipher1729/Desktop/netSec/data_crawler_28Mar/data_crawler/data_crawler/data_crawler/spiders/getDataSpider.py", line 205, in parse
+    items[scriptObjs] = scriptObj. allScripts
+NameError: global name 'scriptObjs' is not defined
+2016-04-02 17:35:21 [scrapy] ERROR: Spider error processing <POST http://127.0.0.1:8050/render.html> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/cipher1729/Desktop/netSec/data_crawler_28Mar/data_crawler/data_crawler/data_crawler/spiders/getDataSpider.py", line 205, in parse
+    items[scriptObjs] = scriptObj. allScripts
+NameError: global name 'scriptObjs' is not defined
+2016-04-02 17:35:22 [scrapy] ERROR: Spider error processing <POST http://127.0.0.1:8050/render.html> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/cipher1729/Desktop/netSec/data_crawler_28Mar/data_crawler/data_crawler/data_crawler/spiders/getDataSpider.py", line 205, in parse
+    items[scriptObjs] = scriptObj. allScripts
+NameError: global name 'scriptObjs' is not defined
+2016-04-02 17:35:27 [scrapy] ERROR: Spider error processing <POST http://127.0.0.1:8050/render.html> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/cipher1729/Desktop/netSec/data_crawler_28Mar/data_crawler/data_crawler/data_crawler/spiders/getDataSpider.py", line 205, in parse
+    items[scriptObjs] = scriptObj. allScripts
+NameError: global name 'scriptObjs' is not defined
+2016-04-02 17:35:30 [scrapy] ERROR: Spider error processing <POST http://127.0.0.1:8050/render.html> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/cipher1729/Desktop/netSec/data_crawler_28Mar/data_crawler/data_crawler/data_crawler/spiders/getDataSpider.py", line 205, in parse
+    items[scriptObjs] = scriptObj. allScripts
+NameError: global name 'scriptObjs' is not defined
+2016-04-02 17:35:31 [scrapy] ERROR: Spider error processing <POST http://127.0.0.1:8050/render.html> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/cipher1729/Desktop/netSec/data_crawler_28Mar/data_crawler/data_crawler/data_crawler/spiders/getDataSpider.py", line 205, in parse
+    items[scriptObjs] = scriptObj. allScripts
+NameError: global name 'scriptObjs' is not defined
+2016-04-02 17:35:31 [scrapy] ERROR: Spider error processing <POST http://127.0.0.1:8050/render.html> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/cipher1729/Desktop/netSec/data_crawler_28Mar/data_crawler/data_crawler/data_crawler/spiders/getDataSpider.py", line 205, in parse
+    items[scriptObjs] = scriptObj. allScripts
+NameError: global name 'scriptObjs' is not defined

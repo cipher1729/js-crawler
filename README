@@ -1,0 +1,56 @@
+------------------------------------
+1. Running the spiders
+
+#start aquarium
+#In a new terminal run aquarium as root or sudo, logs will print to screen
+cd /home/group9p1/aquarium
+docker-compose up
+
+#first download new alexa 1M list into the crawler directory
+python read.py
+
+#populate a section of the list for the crawler to scrape
+#the populate script take a start number, end number, and a padding number
+#to scrap sites 1-100 with a padding of 5
+python populate.py 1 100 5
+
+#run the spider
+#In a new terminal run the spider as root or sudo, logs will print to screen and 
+scrapy crawl getData
+
+
+------------------------------------
+2. Database
+
+All scripts will be stored in /home/group9p1/javascripts/http/<url>/
+Database collection 'currDB' is currently used. This can be changed by
+cd  data_crawler/settings.py
+change MONGODB_COLLECTION  to the new collection name
+
+To view the database content
+python client.py
+
+....................................
+3. Training the classifier
+
+To train the classifier with the training data set in ml/train2.csv
+cd ml
+python train.py
+
+...................................
+4. Testing the classifier
+cd ml
+python classifier_test.py <path to test csv>
+
+The test csv should have 28 comma separated values with an expected label at the 29th positions. The first line of the file should be of the form '<no of records>, 28'
+
+
+..................................
+HELPER files:
+python testClass.py :to read data from a delimiter separated list of scripts and write their features to a csv file
+python read.py: update alexa list to latest in alexaUrls.txt
+python client.py: print entries in mongo
+checkScript.py is for running input scripts through VirusTotal
+
+
+

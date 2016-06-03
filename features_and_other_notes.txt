@@ -1,0 +1,53 @@
+
+testClass.py:	
+-------------
+Driver file for getFeatures.py which extracts the features from the given delimiter separated file containing all the input scripts/
+
+
+train.py:
+------------
+To train the machine learning classifier using data from data/train2.py and to write out the trained object to disk
+
+
+classifier_test.py:
+-------------
+Takes a test .csv file as input and gets the classifier's prediction for the data in that file.
+
+
+getFeatures.py:
+-------------
+Constructs Javascript AST for the input script file. Extracts features from the AST and returns to thecalling driver file in the form of a dictionary
+Features extracted are:
+
+1. No of eval() functions 
+2. No of setInterval() functions
+3. No of setTimeout() functions
+4. No of Javascript string link() functions
+5. No of Javascript string search() functions
+6. No of exec() functions
+7. No of escape() functions
+8. No of unescape() functions
+9. Ratio of no of Javascript keywords to no of normal words (from predefined list)
+10. Average entropy of all words
+11. Average entropy of the script
+12. No of long strings in the program (with length >40)
+13. Maximum entropy of the program
+14. Average string length in the program
+15. Maximum string length in the program
+16. No of functions or variables with long names(with length>=40)
+17. No of direct string assignments
+18. No of string-modiyfing functions
+19. No of event attachment functions
+20. No of DOM modifying functions in the script
+21. No of suspicious strings (lookup from predefined list)
+22. Whitespace ratio (No of whitespace characters to actualy number of characters in the script)
+23. No of strings containing only hexadecimal characters
+24. Max non printable characters in strings	
+25. Average line length in the script
+26. No of times 'iframe' is a string in the script
+27. No of tags with malicious names in the script (from predefined list)
+28. Length of the script
+
+
+
+ 	

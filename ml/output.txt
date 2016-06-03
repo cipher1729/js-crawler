@@ -1,0 +1,15 @@
+{u'/home/cipher1729/Desktop/netSec/ml/CS_6262/testFile.js': ('FOUND', 'Js.Trojan.Iframe-95')}
+
+
+{u'/home/cipher1729/Desktop/netSec/ml/CS_6262/testFile.js': ('FOUND', 'Legacy.Trojan.Agent-1388596')}
+
+
+{u'/home/cipher1729/Desktop/netSec/ml/CS_6262/testFile.js': ('FOUND', 'Legacy.Trojan.Agent-1388596')}
+
+
+{u'/home/cipher1729/Desktop/netSec/ml/CS_6262/testFile.js': ('FOUND', 'Legacy.Trojan.Agent-1388596')}
+
+
+{u'/home/cipher1729/Desktop/netSec/ml/CS_6262/testFile.js': ('FOUND', 'Legacy.Trojan.Agent-1388596')}
+
+
